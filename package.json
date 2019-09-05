@@ -1,0 +1,31 @@
+{
+	"name": "simple-http-assignment-start",
+	"version": "1.0.0",
+	"engines": {
+		"node": "10.16.0",
+		"npm": "3.10.x"
+	},
+	"description": "HTTP asssignment start.",
+	"main": "./src/server.js",
+	"scripts": {
+		"start": "node ./src/server.js",
+		"pretest": "eslint ./src --fix",
+		"test": "echo \"Test complete\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tec1850/Simple-HTTP-Assignment-Start.git"
+	},
+	"author": "Taylor Cox",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/tec1850/Simple-HTTP-Assignment-Start/issues"
+	},
+	"homepage": "https://github.com/tec1850/Simple-HTTP-Assignment-Start#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^6.3.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-plugin-import": "^2.18.2"
+	}
+}
